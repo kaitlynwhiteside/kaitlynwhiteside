@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import { Cormorant_Garamond, Inter, Syne } from "next/font/google";
+import { Cormorant_Garamond, Inter } from "next/font/google";
 import "./globals.css";
 
 const cormorant = Cormorant_Garamond({
   variable: "--font-display",
   subsets: ["latin"],
-  weight: ["400", "600", "700"],
+  weight: ["300", "400", "600", "700"],
   style: ["normal", "italic"],
 });
 
@@ -15,11 +15,6 @@ const inter = Inter({
   weight: ["400", "500"],
 });
 
-const syne = Syne({
-  variable: "--font-hero",
-  subsets: ["latin"],
-  weight: ["800"],
-});
 
 export const metadata: Metadata = {
   title: "Kaitlyn Whiteside — Attorney & Writer",
@@ -43,7 +38,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${cormorant.variable} ${inter.variable} ${syne.variable} antialiased`}
+        className={`${cormorant.variable} ${inter.variable} antialiased`}
       >
         {children}
       </body>
