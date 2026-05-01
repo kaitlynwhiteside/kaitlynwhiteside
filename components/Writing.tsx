@@ -18,7 +18,7 @@ function formatDate(dateStr: string): string {
 }
 
 export default function Writing({ posts }: WritingProps) {
-  const substackUrl = process.env.NEXT_PUBLIC_SUBSTACK_URL || "#";
+  const substackUrl = "https://kaitlynwhiteside.substack.com/";
 
   return (
     <section
