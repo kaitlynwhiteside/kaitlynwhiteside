@@ -29,8 +29,7 @@ export default function About() {
           <p className="font-[family-name:var(--font-display)] text-2xl md:text-3xl text-[#0a0a0a] leading-relaxed mb-8">
             Kaitlyn Whiteside is an attorney and writer based in New York.
             She practices at Lee Meier Burke and is licensed in New York
-            and Georgia. Alongside her legal career, she writes on
-            law, culture, and the spaces between them.
+            and Georgia.
           </p>
           <a
             href="https://leemeierburke.com/our-team/kaitlyn-whiteside/"

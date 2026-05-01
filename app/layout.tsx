@@ -17,11 +17,11 @@ const inter = Inter({
 
 
 export const metadata: Metadata = {
-  title: "Kaitlyn Whiteside — Attorney & Writer",
+  title: "Kaitlyn Whiteside",
   description:
     "Kaitlyn Whiteside is an attorney and writer based in New York, licensed in New York and Georgia.",
   openGraph: {
-    title: "Kaitlyn Whiteside — Attorney & Writer",
+    title: "Kaitlyn Whiteside",
     description:
       "Kaitlyn Whiteside is an attorney and writer based in New York, licensed in New York and Georgia.",
     url: "https://kaitlynwhiteside.com",
