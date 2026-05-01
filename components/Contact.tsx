@@ -5,17 +5,15 @@ interface ContactLink {
 }
 
 export default function Contact() {
-  const substackUrl = process.env.NEXT_PUBLIC_SUBSTACK_URL || "#";
-
   const links: ContactLink[] = [
     {
       label: "Lee Meier Burke",
-      href: "https://leemeierburke.com",
+      href: "https://leemeierburke.com/our-team/kaitlyn-whiteside/",
       external: true,
     },
     {
       label: "Substack",
-      href: substackUrl,
+      href: "https://kaitlynwhiteside.substack.com/",
       external: true,
     },
     {

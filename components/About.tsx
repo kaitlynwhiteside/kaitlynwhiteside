@@ -16,7 +16,7 @@ export default function About() {
         <div className="w-full md:w-64 lg:w-72 shrink-0">
           <div className="relative w-full aspect-[3/4]">
             <Image
-              src="/headshot.jpg"
+              src="/headshot.png"
               alt="Kaitlyn Whiteside"
               fill
               className="object-cover object-top"
@@ -33,7 +33,7 @@ export default function About() {
             law, culture, and the spaces between them.
           </p>
           <a
-            href="https://leemeierburke.com"
+            href="https://leemeierburke.com/our-team/kaitlyn-whiteside/"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 font-[family-name:var(--font-body)] text-sm uppercase tracking-[0.15em] text-[#b85c3a] hover:underline underline-offset-4"
