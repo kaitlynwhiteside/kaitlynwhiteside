@@ -27,7 +27,7 @@ export default function About() {
         {/* Bio */}
         <div className="flex flex-col justify-center">
           <p className="font-[family-name:var(--font-display)] text-2xl md:text-3xl text-[#0a0a0a] leading-relaxed mb-8">
-            Kaitlyn Whiteside is an attorney and writer based in New York.
+            Kaitlyn Whiteside is an attorney based in New York.
             She practices at Lee Meier Burke and is licensed in New York
             and Georgia.
           </p>
